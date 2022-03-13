@@ -8,7 +8,7 @@ api_key.apiKey = "c84b3jqad3ide9hei860"
 const finnhubClient = new finnhub.DefaultApi()
 const input = 'BLUEACACIA LTD - CLASS A'
 
-test()
+//test()
 async function test(){
     try {
         await DataPrice(input)
