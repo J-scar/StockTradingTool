@@ -1,11 +1,11 @@
-import React from "react"
+import React, { useRef }from "react"
 import Field from '../components/form/Field'
 
 import loginStyle from "../styles/Login.module.css"
 
 const LoginForm = ({onSubmit}) => {
-    const usernameRef = React.useRef();
-    const passwordRef = React.useRef();
+    const usernameRef = useRef();
+    const passwordRef = useRef();
     const handleSubmit = e => {
         e.preventDefault();
         const data = {
